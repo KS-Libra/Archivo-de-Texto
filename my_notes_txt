@@ -13,5 +13,4 @@ with open('my_notes.txt', 'r') as file:
     for line in file:
         # Mostrar cada línea leída en la consola
         print(line.strip())
-
-# El archivo se cierra automáticamente al salir del bloque 'with'
+# Cerrar archivo
